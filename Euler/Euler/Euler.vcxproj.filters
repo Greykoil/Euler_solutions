@@ -63,6 +63,15 @@
     <ClInclude Include="pjeProblem_7.h">
       <Filter>Header Files\Problems</Filter>
     </ClInclude>
+    <ClInclude Include="pjeProblem_8.h">
+      <Filter>Header Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="pjeProblem_9.h">
+      <Filter>Header Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="pjeProblem_10.h">
+      <Filter>Header Files\Problems</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -102,6 +111,15 @@
       <Filter>Source Files\Problems</Filter>
     </ClCompile>
     <ClCompile Include="pjeProblem_7.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="pjeProblem_8.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="pjeProblem_9.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="pjeProblem_10.cpp">
       <Filter>Source Files\Problems</Filter>
     </ClCompile>
   </ItemGroup>

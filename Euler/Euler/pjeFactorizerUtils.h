@@ -6,7 +6,7 @@ class pjeFactorizerUtils
 public:
 	pjeFactorizerUtils();
 
-	bool is_prime(long long number);
+	static bool is_prime(long long number);
 
 	void prime_factors(long long number, std::vector<long long>& factors);
 

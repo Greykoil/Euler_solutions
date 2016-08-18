@@ -10,6 +10,9 @@ pjeFactorizerUtils::pjeFactorizerUtils()
 bool pjeFactorizerUtils::is_prime(long long number)
 {
 	long long root = std::sqrt(number);
+	if (number == 2) {
+		return true;
+	}
 	if (number % 2 == 0) {
 		return false;
 	}

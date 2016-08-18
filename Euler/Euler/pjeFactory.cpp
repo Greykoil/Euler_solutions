@@ -5,10 +5,11 @@
 #include "pjeProblem_3.h"
 #include "pjeProblem_4.h"
 #include "pjeProblem_5.h"
-// This one was misnamed 
 #include "pjeProblem_6.h"
-
 #include "pjeProblem_7.h"
+#include "pjeProblem_8.h"
+#include "pjeProblem_9.h"
+#include "pjeProblem_10.h"
 
 pjeFactory::pjeFactory()
 {
@@ -29,6 +30,12 @@ void pjeFactory::fill(std::vector<std::unique_ptr<pjeSolution>>& vector) const
 	vector.push_back(std::make_unique<pjeProblem_6>());
 
 	vector.push_back(std::make_unique<pjeProblem_7>());
+
+	vector.push_back(std::make_unique<pjeProblem_8>());
+	
+	vector.push_back(std::make_unique<pjeProblem_9>());
+
+	vector.push_back(std::make_unique<pjeProblem_10>());
 }
 
 pjeFactory::~pjeFactory()

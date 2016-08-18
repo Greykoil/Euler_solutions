@@ -149,12 +149,15 @@
     <ClInclude Include="pjeFactorizerUtils.h" />
     <ClInclude Include="pjeFactory.h" />
     <ClInclude Include="pjeProblem_1.h" />
+    <ClInclude Include="pjeProblem_10.h" />
     <ClInclude Include="pjeProblem_2.h" />
     <ClInclude Include="pjeProblem_3.h" />
     <ClInclude Include="pjeProblem_4.h" />
     <ClInclude Include="pjeProblem_5.h" />
     <ClInclude Include="pjeProblem_6.h" />
     <ClInclude Include="pjeProblem_7.h" />
+    <ClInclude Include="pjeProblem_8.h" />
+    <ClInclude Include="pjeProblem_9.h" />
     <ClInclude Include="pjeSolution.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -165,12 +168,15 @@
     <ClCompile Include="pjeFactorizerUtils.cpp" />
     <ClCompile Include="pjeFactory.cpp" />
     <ClCompile Include="pjeProblem_1.cpp" />
+    <ClCompile Include="pjeProblem_10.cpp" />
     <ClCompile Include="pjeProblem_2.cpp" />
     <ClCompile Include="pjeProblem_3.cpp" />
     <ClCompile Include="pjeProblem_4.cpp" />
     <ClCompile Include="pjeProblem_5.cpp" />
     <ClCompile Include="pjeProblem_6.cpp" />
     <ClCompile Include="pjeProblem_7.cpp" />
+    <ClCompile Include="pjeProblem_8.cpp" />
+    <ClCompile Include="pjeProblem_9.cpp" />
     <ClCompile Include="pjeSolution.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
