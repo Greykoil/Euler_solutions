@@ -10,6 +10,7 @@
 #include "pjeProblem_8.h"
 #include "pjeProblem_9.h"
 #include "pjeProblem_10.h"
+#include "pjeProblem51.h"
 
 pjeFactory::pjeFactory()
 {
@@ -36,6 +37,8 @@ void pjeFactory::fill(std::vector<std::unique_ptr<pjeSolution>>& vector) const
 	vector.push_back(std::make_unique<pjeProblem_9>());
 
 	vector.push_back(std::make_unique<pjeProblem_10>());
+
+	vector.push_back(std::make_unique<pjeProblem51>());
 }
 
 pjeFactory::~pjeFactory()

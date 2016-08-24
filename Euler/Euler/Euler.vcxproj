@@ -148,6 +148,8 @@
     <ClInclude Include="pjeChooser.h" />
     <ClInclude Include="pjeFactorizerUtils.h" />
     <ClInclude Include="pjeFactory.h" />
+    <ClInclude Include="pjeNumUtils.h" />
+    <ClInclude Include="pjeProblem51.h" />
     <ClInclude Include="pjeProblem_1.h" />
     <ClInclude Include="pjeProblem_10.h" />
     <ClInclude Include="pjeProblem_2.h" />
@@ -167,6 +169,8 @@
     <ClCompile Include="pjeChooser.cpp" />
     <ClCompile Include="pjeFactorizerUtils.cpp" />
     <ClCompile Include="pjeFactory.cpp" />
+    <ClCompile Include="pjeNumUtils.cpp" />
+    <ClCompile Include="pjeProblem51.cpp" />
     <ClCompile Include="pjeProblem_1.cpp" />
     <ClCompile Include="pjeProblem_10.cpp" />
     <ClCompile Include="pjeProblem_2.cpp" />

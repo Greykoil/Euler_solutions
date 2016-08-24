@@ -72,6 +72,12 @@
     <ClInclude Include="pjeProblem_10.h">
       <Filter>Header Files\Problems</Filter>
     </ClInclude>
+    <ClInclude Include="pjeProblem51.h">
+      <Filter>Header Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="pjeNumUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -121,6 +127,12 @@
     </ClCompile>
     <ClCompile Include="pjeProblem_10.cpp">
       <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="pjeProblem51.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="pjeNumUtils.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
