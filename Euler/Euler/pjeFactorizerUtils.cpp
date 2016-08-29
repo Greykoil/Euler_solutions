@@ -9,7 +9,7 @@ pjeFactorizerUtils::pjeFactorizerUtils()
 
 bool pjeFactorizerUtils::is_prime(long long number)
 {
-	long long root = std::sqrt(number);
+	long long root = (long long)std::sqrt(number);
 	if (number == 2) {
 		return true;
 	}
@@ -26,7 +26,7 @@ bool pjeFactorizerUtils::is_prime(long long number)
 
 void pjeFactorizerUtils::prime_factors(long long number, std::vector<long long>& factors)
 {
-	long long root = std::sqrt(number);
+	long long root = (long long)std::sqrt(number);
 	if (number % 2 == 0) {
 		factors.push_back(2);
 	}

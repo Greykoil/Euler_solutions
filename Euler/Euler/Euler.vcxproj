@@ -83,11 +83,12 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files\Boost\boost_1_55_0</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +146,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="pjePrimeMap.h" />
+    <ClInclude Include="pjePrimeNode.h" />
+    <ClInclude Include="pjeProblem_60.h" />
     <ClInclude Include="pjeChooser.h" />
     <ClInclude Include="pjeFactorizerUtils.h" />
     <ClInclude Include="pjeFactory.h" />
@@ -166,6 +170,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Euler.cpp" />
+    <ClCompile Include="pjePrimeMap.cpp" />
+    <ClCompile Include="pjePrimeNode.cpp" />
+    <ClCompile Include="pjeProblem_60.cpp" />
     <ClCompile Include="pjeChooser.cpp" />
     <ClCompile Include="pjeFactorizerUtils.cpp" />
     <ClCompile Include="pjeFactory.cpp" />

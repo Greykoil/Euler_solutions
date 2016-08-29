@@ -46,6 +46,15 @@ long long pjeNumUtils::replace_digit(long long number, int nth_digit, int new_va
 	}
 	return sum;
 }
+int pjeNumUtils::num_digits(long long number)
+{
+	int digits = 0;
+	while (number) {
+		number /= 10;
+		++digits;
+	}
+	return digits;
+}
 pjeNumUtils::~pjeNumUtils() {
 
 }

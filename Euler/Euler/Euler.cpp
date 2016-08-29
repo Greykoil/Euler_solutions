@@ -4,6 +4,10 @@
 #include "stdafx.h"
 #include "pjeChooser.h"
 
+#include <iostream>
+#include <iterator>
+#include <algorithm>
+
 int main()
 {
 	pjeChooser chooser;

@@ -18,6 +18,8 @@ public:
 	// IE num - 765098 has 0th digit 8, 1st digit 9 and 5th digit 7
 	static long long replace_digit(long long number, int nth_digit, int new_value);
 
+	// how many digits in the numer
+	static int num_digits(long long number);
 	~pjeNumUtils();
 };
 

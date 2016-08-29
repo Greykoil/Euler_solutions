@@ -19,6 +19,12 @@
     <Filter Include="Source Files\Problems">
       <UniqueIdentifier>{54518681-39e1-43b8-8f7d-b97c6dbb87dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\PrimeMap">
+      <UniqueIdentifier>{f70af97f-4ca5-4cf0-9b2e-99a0bb922e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problems\PrimeMap">
+      <UniqueIdentifier>{38eddaf8-87be-47be-8283-b45c1865bf0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -78,6 +84,15 @@
     <ClInclude Include="pjeNumUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="pjeProblem_60.h">
+      <Filter>Header Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="pjePrimeMap.h">
+      <Filter>Header Files\PrimeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="pjePrimeNode.h">
+      <Filter>Header Files\PrimeMap</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -133,6 +148,15 @@
     </ClCompile>
     <ClCompile Include="pjeNumUtils.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pjeProblem_60.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="pjePrimeMap.cpp">
+      <Filter>Source Files\Problems\PrimeMap</Filter>
+    </ClCompile>
+    <ClCompile Include="pjePrimeNode.cpp">
+      <Filter>Source Files\Problems\PrimeMap</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

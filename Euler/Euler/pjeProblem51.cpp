@@ -100,10 +100,10 @@ int pjeProblem51::find_matching_values(long num, const std::set<long>& primes)
 	pjeNumUtils::split_number(digits, num);
 	int max = 0;
 
-	for (int i = 0; i < digits.size(); ++i) {
+	for (int i = 0; i < (int)digits.size(); ++i) {
 		std::vector<int> repeat_locs;
 		repeat_locs.push_back(i);
-		for (int j = i + 1; j < digits.size(); ++j) {
+		for (int j = i + 1; j < (int)digits.size(); ++j) {
 			if (digits[i] == digits[j]) {
 				repeat_locs.push_back(j);
 			}
